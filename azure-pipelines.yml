@@ -1,8 +1,8 @@
 trigger:
-- branched:
+  branches:
     include:
       - '*'  #build all branched
-    paths:
+  paths:
       exclude:
       - docs/* #exclude the docs folder
 
